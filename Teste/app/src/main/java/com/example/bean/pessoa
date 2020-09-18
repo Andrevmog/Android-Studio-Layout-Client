@@ -1,0 +1,64 @@
+package com.example.bean;
+
+public abstract class pessoa{
+    private String nome;
+    private String idade;
+    private String genero;
+    private String email;
+    private String numero;
+    private String endereco;
+    private String senha;
+
+    public pessoa(){
+    }
+
+    public void setNome(String n){
+        this.nome=n;
+    }
+    public void setIdade(String i){
+        this.idade=i;
+    }
+    public void setGenero(String g){
+        this.genero=g;
+    }
+    public void setEmail(String e){
+        this.email=e;
+    }
+    public void setNumero(String n){
+        this.numero=n;
+    }
+    public void setEndereco(String en){
+        this.endereco=en;
+    }
+    public void setSenha(String s){
+        this.senha=s;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getIdade() {
+        return idade;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+}

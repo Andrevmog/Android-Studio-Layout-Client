@@ -1,0 +1,37 @@
+package com.example.bean;
+
+public class Motora extends pessoa{
+    private double nota=5.0;
+    private int viagens;
+    private int reviews;
+
+    public Motora(String nome,String idade,String genero,String email,String numero,String endereco,String senha,double nota, int viagens, int reviews) {
+        this.nota = nota;
+        this.viagens = viagens;
+        this.reviews = reviews;
+    }
+
+    public double getNota() {
+        return nota;
+    }
+
+    public int getViagens() {
+        return viagens;
+    }
+
+    public int getReviews() {
+        return reviews;
+    }
+
+    public void setNota(double nota) {
+        this.nota = nota;
+    }
+
+    public void setViagens(int viagens) {
+        this.viagens = viagens;
+    }
+
+    public void setReviews(int reviews) {
+        this.reviews = reviews;
+    }
+}
